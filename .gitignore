@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 参考项目（两个上游仓库，只用于分析，不参与本项目）
+reference/
+
+# 车辆学习档案（运行时生成，属于本机数据）
+profiles/
+
+# 遥测录制（个人圈速数据，体积大）
+*.fm8rec
+
+# 本次会话的决策日志（每次启动都会追加）
+decisions.csv
+*.tmp
+
+# 工具/编辑器
+.workbuddy/
+.idea/
+.vscode/
+
+# 打包产物（可用 tools/打包exe.bat 重新生成）
+dist/
+build/
+*.spec
+
+# 界面偏好（HUD 位置/透明度），属于本机设置
+ui.json
+
+# 临时验证文件
+tmp_*.csv
+tmp_*/
+
+# 给外部审查用的源码快照（可重新生成）
+review/
+
+# 运行时生成：崩溃日志、轮转日志、本地调参文件
+error.log
+*.log
+decisions.csv.*
+params.json
+for_github_review.md
+
+# 个人驾驶数据（会话日志）
+docs/session-*.csv
